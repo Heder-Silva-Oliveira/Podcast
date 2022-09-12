@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+   
+}
+body{
+    height: 100vh;
+    background-color: rgb(18, 36, 36);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: sans-serif;
+    color: azure;
+}
+.card{
+    width: 75%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 94, 94);
+    box-shadow: 0px 5px 10px rgba(255, 253, 253, 0.35);
+    border-radius: 2%;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+
+ }
+.episodio{
+    text-align: start;
+    width: 90%;
+}
+audio  {
+    width: 100%;
+}
+label{
+    margin-left: 5px;
+    color: aliceblue;
+}
